@@ -12,7 +12,7 @@ const Index: NextPage<Props> = props => {
         <div>
             <ul>
                 {props.achievements.map((achievement:Achievement) => (
-                    <AchievementItem achievement={achievement} />
+                    <AchievementItem key={achievement.id} achievement={achievement} />
                 ))}
             </ul>
         </div>

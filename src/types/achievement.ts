@@ -1,4 +1,4 @@
-export type Achievement {
+export type Achievement = {
     id: number;
     title: string;
     imageUrl: string | null;
